@@ -1,0 +1,3 @@
+period,site,verdict,reasons,comp_T_air,comp_RH,comp_P_air,comp_wind_avg,comp_snow_depth
+A,GEM GeoBasis Disko AWS2,PASS WITH WARNINGS,Air temp completeness 78%; Humidity completeness 78%; Pressure completeness 79%; Wind avg completeness 77%; Snow depth completeness 78%; Snow depth critically flagged 0.8%; 6 cross-product disagreements vs DMI Aasiaat,0.785,0.785,0.785,0.774,0.779
+B,GEM GeoBasis Disko AWS2,NO DATA,period outside the published record (GEM release lags; record ends 2025-01-01 UTC) — re-download from data.g-e-m.dk when updated,,,,,

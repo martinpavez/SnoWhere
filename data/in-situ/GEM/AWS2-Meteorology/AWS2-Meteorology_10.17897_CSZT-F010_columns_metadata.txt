@@ -1,0 +1,24 @@
+﻿ColumnName	Description	Unit	DataType
+Date		YYYY-MM-DD	Date
+Time	UTC-3	HH:MM	Time
+Battery Voltage_V	Voltage of the battery	V	Number
+Air temperature_°C	Air temperature measured 3 m above ground surface (Sensor: Temperature and humidity sensor, CS215. After 10 September 2022: HMP155A, Vaisala)	°C	Number
+Relative humidity_%	Relative humidity measured 3 m above ground (Sensor: Temperature and humidity sensor, CS215. After 10 September 2022: HMP155A, Vaisala)	%	Number
+Air pressure_hPa	Air pressure (Sensor: Setra, Barometric Pressure sensor, CS100)	hPa	Number
+Wind speed_max_ms-1	Maximum wind speed (maximum within the previous 30 minutes period -scan 30 sec) measured 3.3 meter above ground (Sensor: Vector instruments, Anemometer, A100R. After 10 September 2022: Windsonic4).	ms-1	Number
+Wind speed_avg_ms-1	Average wind speed (average of the previous 30 minutes period) measured 3.3 meter above ground (Sensor: Vector instruments, Anemometer, A100R. After 10 September 2022: Windsonic4)	ms-1	Number
+Wind direction_degrees	Wind direction (true North) measured 3.3 meter above ground (Sensor: Vector Instruments, Wind vane, W200P. After 10 September 2022: Windsonic4)	degrees	Number
+Shortwave incoming radiation_Wm-2	Shortwave incoming radiation measured 3.1 meter above ground (sensor pointing at the sky) (Sensor: Kipp&Zonen, Net radiometer, CNR4)	Wm-2	Number
+Shortwave outgoing radiation_Wm-2	Shortwave outgoing radiation measured 3.1 meter above ground (sensor pointing at the ground) (Sensor: Kipp&Zonen, Net radiometer, CNR4)	Wm-2	Number
+Longwave incoming radiation_Wm-2	Longwave incoming radiation measured 3.1 meter above ground (sensor pointing at the sky) (Sensor: Kipp&Zonen, Net radiometer, CNR4)	Wm-2	Number
+Longwave outgoing radiation_Wm-2	Longwave outgoing radiation measured 3.1 meter above ground (sensor pointing at the ground) (Sensor: Kipp&Zonen, Net radiometer, CNR4)	Wm-2	Number
+Short wave net radiation_Wm-2	Shortwave net radiation = Shortwave incoming radiation - Shortwave outgoing radiation	Wm-2	Number
+Longwave net radiation_Wm-2	Longwave net radiation = Longwave incoming radiation - Longwave outgoing radiation	Wm-2	Number
+Net radiation_Wm-2	Net radiation = Shortwave net radiation + longwave net radiation	Wm-2	Number
+Albedo	Albedo = Shortwave outgoing radiation/Shortwave incoming radiation. Data in the period 15 November to 1 February has been deleted due to very low solar angle or polar night.  Only data fra 11 AM to 15PM are included in this data set.		Number
+Temperature CNR4_degK	Temperature of the Net radiometer (Sensor: Kipp&Zonen, Net radiometer, CNR4)	DegKelvin	Number
+Skye temperature_°C	Skye temperature= ((Long wave incoming  radiation /(5.67*e-8))^0.25) - 273.15	°C	Number
+Ground temperature_°C	Ground temperature= ((Long wave outgoing  radiation /(5.67*e-8))^0.25) - 273.15	°C	Number
+PAR_incoming_Sensor1_µmol_m-2 s-1	Photosynthetic Active Radiation (incoming) measured 3 meter above ground (Sensor: Quantum, SQ110). Sensor installed in June 2017. The sensor is pointing towards the sky.	µmol m-2 s-1	Number
+PAR_incoming_sensor2_µmol m-2 s-1	Photosynthetic Active Radiation (incoming) measured 3 meter above ground (Sensor: Licor Li-190/R). Sensor installed in September 2024. The sensor is pointing towards the sky.	µmol m-2 s-1	Number
+PAR_outgoing_sensor3_µmol m-2 s-1	Photosynthetic Active Radiation (outgoing) measured 3 meter above ground (Sensor: Licor Li-190/R). Sensor installed in September 2024. The sensor is pointing down at the ground.	µmol m-2 s-1	Number

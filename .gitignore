@@ -1,0 +1,22 @@
+# Claude Code session state
+.claude/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Large EO data: raw granules and the derived subsets (~500 MB).
+# Regenerate the subsets with src/eo_subset.py (see README), or get them
+# from the shared drive.
+data/eo/
+data/eo_subset/
+data/eo_subset_stations/
+*.h5
+
+# Microsoft Graph auth token (written by src/eo_subset.py --auth).
+# Never commit this.
+**/.graph_token.json
+
+*.pdf

@@ -1,0 +1,17 @@
+﻿GeoBasis Disko - Snow - AWS2-SnowDepth
+Location: AWS2 lat: 69.25348663330078 lon: -53.514129638671875 accuracy: Specific named location
+The automatic weather station AWS2 was installed in August 2012 in Østerlien just east of Arctic Station. The station is located approximately 25 meter above sea level in a gentle south sloping area covered by low vegetation/dwarf shrubs. The time stamp refer to UTC-3. Snow is measured as a point measurement below the mast. Find more data from AWS2 under Soil (AWS2-GroundTemperatureP1 and P2, AWS2-SoilHeatFlux, AWS2-SurfaceTemperature). Find meteorological data from AWS2 under Meteorology (AWS2-Meteorology). All data are logged by 30 minutes interval.    Snow:Snow    GeoBasis Disko:The GeoBasis monitoring programme focuses on selected abiotic characteristics in order to describe the state of Greenlandic terrestrial environments and their potential feedback effects in a changing climate. Monitored plot data is up-scaled to a landscape level and is used to improve ecosystem models to be able to quantify these feedback mechanisms. The GeoBasis programme provides an active response to recommendations in international assessments such as ACIA and SWIPA; and is continuously being adapted based on AMAP and other international founded recommendations. Furthermore, the GeoBasis programme is directly involved in several international networks and research projects (e.g. the Circumpolar Active Layer Monitoring (CALM) programme, the Nordic Centre of Excellence DEFROST, the Danish Centre of Excellence CENPERM, the EU-projects PAGE21 and INTERACT, and the Arctic Research Centre at Aarhus University). The GeoBasis programme is divided into a number of sub-groups, including:
+
+-------------------------------------
+Cite as: "Greenland Ecosystem Monitoring (2026). GeoBasis Disko - Snow - AWS2-SnowDepth (Version 1.0). [Data set] [Download ID: 02ca4cff-8fea-4843-b587-cf81f56df4ba] [CC-BY-SA-4.0]. Greenland Ecosystem Monitoring. https://doi.org/10.17897/SCXW-S288"
+-------------------------------------
+Dataset DOI and permanent link: https://doi.org/10.17897/SCXW-S288
+Download ID of this download package, for reproducible research: 02ca4cff-8fea-4843-b587-cf81f56df4ba
+Read the included PDF with terms of use for information on license and how to cite.
+Also find this item on DataCite: https://commons.datacite.org/doi.org/10.17897/SCXW-S288
+-------------------------------------
+Learn more about the Greenland Ecosystem Monitoring Project here: https://www.g-e-m.dk.
+This dataset is managed in accordance with the GEM Data Management Plan: https://g-e-m.dk/gem-publications-and-reports/gem-data-management-plan/
+-------------------------------------
+Supplementary data you should review for understanding the dataset:
+The GeoBasis Disko monitoring manual: https://g-e-m.dk/gem-publications-and-reports/manuals

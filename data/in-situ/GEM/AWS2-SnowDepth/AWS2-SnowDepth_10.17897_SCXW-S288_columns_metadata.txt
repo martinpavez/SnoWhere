@@ -1,0 +1,4 @@
+﻿ColumnName	Description	Unit	DataType
+Date		YYYY-MM-DD	Date
+Time (UTC-3)	UTC-3	HH:MM	Time
+Snow depth_m	Snow depth measured at one point based on distance from sensor to surface (Sensor: Campbell Scientific, sonic ranging sensor SR50a). There are some small fluctuations even when there are no snow on the ground	M	Number

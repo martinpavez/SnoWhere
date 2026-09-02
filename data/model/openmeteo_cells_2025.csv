@@ -1,0 +1,5 @@
+site,model,cell_lat,cell_lon,cell_elev_m,offset_km,station_lat,station_lon
+aasiaat,era5,68.5,-52.75,38.0,23.5,68.7081,-52.8517
+nuuk,era5,64.25,-51.75,78.0,7.5,64.1833,-51.7308
+tasiilaq,era5,65.75,-37.75,24.0,16.3,65.6111,-37.6367
+ittoqqortoormiit,era5,70.5,-22.0,61.0,2.5,70.4844,-21.9511

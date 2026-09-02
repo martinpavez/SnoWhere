@@ -1,0 +1,15 @@
+period,station,name,verdict,reasons,comp_101,comp_201,comp_301,comp_401
+A,421900,Qeqertarsuaq Heliport,FAIL,T mean completeness 16%; T mean critically flagged 4.1%; Humidity completeness 1%,0.157,0.012,0.998,0.975
+A,422000,Aasiaat,PASS,all checks passed,0.998,0.997,0.998,0.998
+A,422100,Mitt. Ilulissat,PASS,all checks passed,0.999,0.999,0.999,0.999
+A,422400,Mitt. Aasiaat,PASS,all checks passed,0.998,0.998,0.998,0.996
+A,425000,Nuuk,PASS,all checks passed,0.998,0.997,0.998,0.998
+A,433900,Ittoqqortoormiit,PASS,all checks passed,0.824,0.824,0.824,0.824
+A,436000,Tasiilaq,PASS,all checks passed,0.965,0.964,0.965,0.965
+B,421900,Qeqertarsuaq Heliport,FAIL,T mean completeness 0%; T mean critically flagged 100.0%; Humidity completeness 0%; Pressure completeness 0%,0.0,0.0,0.969,0.0
+B,422000,Aasiaat,PASS,all checks passed,0.897,0.897,0.897,0.897
+B,422100,Mitt. Ilulissat,PASS,all checks passed,0.977,0.977,0.977,0.977
+B,422400,Mitt. Aasiaat,FAIL,T mean completeness 48%; Humidity completeness 27%; Wind speed completeness 48%; Pressure completeness 27%,0.478,0.274,0.479,0.271
+B,425000,Nuuk,PASS,all checks passed,0.984,0.984,0.984,0.984
+B,433900,Ittoqqortoormiit,PASS WITH WARNINGS,T mean completeness 80%; Humidity completeness 80%,0.796,0.799,0.802,0.811
+B,436000,Tasiilaq,PASS WITH WARNINGS,T mean completeness 75%; Humidity completeness 75%; Wind speed completeness 76%; Pressure completeness 76%,0.749,0.751,0.759,0.757

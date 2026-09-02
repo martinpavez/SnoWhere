@@ -1,0 +1,3 @@
+criterion,n_hours,gauge_events,model_events,POD,FAR,freq_bias,FSS,FSS_useful
+exact hour,29171,1866,3626,0.6,0.69,1.94,0.408,0.532
+±1 h tolerance,29171,1866,4322,0.65,0.72,2.32,0.391,0.532

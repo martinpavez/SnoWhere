@@ -1,0 +1,28 @@
+[project]
+name = "snowhere"
+version = "1.0.0"
+description = "Validating EarthCARE ACM-CAP snowfall against DMI gauges and ERA5 in coastal Greenland"
+requires-python = ">=3.11"
+dependencies = [
+    # core analysis
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "xarray>=2024.1",
+    # file formats: ACM-CAP granules (HDF5) and the netCDF subsets
+    "h5py>=3.10",
+    "netCDF4>=1.6",
+    "pyarrow>=15",          # granule_index.parquet
+    # plotting (cartopy for the map figures)
+    "matplotlib>=3.8",
+    "cartopy>=0.23",
+    # data fetching (DMI API, open-meteo, SharePoint via Microsoft Graph)
+    "requests>=2.31",
+    # running the notebooks
+    "ipykernel>=6.29",
+    "nbclient>=0.9",
+    "nbformat>=5.9",
+]
+
+[tool.uv]
+# analysis project: no package to build, the environment is the product
+package = false

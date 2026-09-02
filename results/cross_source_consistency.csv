@@ -1,0 +1,28 @@
+period,pair,variable,distance_km,n,bias,rmsd,r,note
+A,422000<->422400,Air temp,3.1,2249,-0.2,0.44,0.994,
+A,422000<->422400,Humidity,3.1,2248,0.42,2.43,0.977,
+A,422000<->422400,Wind speed,3.1,2249,-0.16,1.17,0.889,
+A,422000<->422400,Pressure,3.1,2244,0.25,0.27,1.0,
+A,422000<->422100,Air temp,92.6,2250,-1.33,2.16,0.906,
+A,422000<->422100,Humidity,92.6,2250,5.99,13.96,0.591,
+A,422000<->422100,Wind speed,92.6,2250,0.18,3.02,0.291,
+A,422000<->422100,Pressure,92.6,2251,0.12,0.66,0.998,
+B,422000<->422100,Air temp,92.6,7651,-0.59,2.52,0.942,
+B,422000<->422100,Humidity,92.6,7656,10.9,16.83,0.65,
+B,422000<->422100,Wind speed,92.6,7655,-0.06,3.07,0.447,
+B,422000<->422100,Pressure,92.6,7655,-0.3,0.94,0.997,
+A,GEM<->422000,Air temp,66.1,1764,0.48,1.64,0.923,GEM 3 m vs DMI 2 m
+A,GEM<->422100,Air temp,96.5,1766,-0.96,1.88,0.928,GEM 3 m vs DMI 2 m
+A,GEM<->422400,Air temp,65.9,1765,0.32,1.68,0.913,GEM 3 m vs DMI 2 m
+A,GEM<->422000,Humidity,66.1,1764,-7.0,13.45,0.646,
+A,GEM<->422100,Humidity,96.5,1767,-1.12,12.22,0.667,
+A,GEM<->422400,Humidity,65.9,1765,-6.78,13.4,0.636,
+A,GEM<->422000,Pressure,66.1,1766,-0.05,0.67,0.998,station-level vs MSL; median offset -1.0 hPa removed
+A,GEM<->422100,Pressure,96.5,1769,-0.05,0.63,0.998,station-level vs MSL; median offset -0.9 hPa removed
+A,GEM<->422400,Pressure,65.9,1762,-0.1,0.66,0.998,station-level vs MSL; median offset -0.7 hPa removed
+A,GEM<->422000,Wind avg,66.1,1741,-0.71,2.75,0.322,GEM 3.3 m vs DMI 10 m — low GEM bias expected
+A,GEM<->422000,Wind max,66.1,1740,-1.29,3.79,0.336,30-min max vs 3-s gust — DMI higher by definition
+A,GEM<->422000,Wind dir,66.1,1396,-13.4,58.1,0.514,"bias=mean circular diff, rmsd=mean |diff| (deg), r=fraction within ±45°"
+A,GEM<->422000,SW radiation,66.1,1765,12.29,95.9,0.889,hourly
+A,GEM<->422000,SW daily total,66.1,74,0.29,1.03,0.874,kWh/m2 per day
+A,GEM<->422000,Snow events,66.1,20,,,0.6,"r = fraction of events matched within +/-1 day (7/8 GEM rises, 8/17 Aasiaat snow days)"
